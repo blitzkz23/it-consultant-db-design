@@ -1,4 +1,5 @@
 # Pac Project Database Design
+PostgreSQL Database implementation for IT Consultant company.
 
 # Mission Statement
 PacProject is a company that provides services in technology project development, including creating applications such as websites and mobile apps, maintaining systems, IT consulting, and other related services. You have been tasked with building a database for PacProject to organize the projects they have worked on. For each project, a project team will be selected by the company, consisting of employees from different departments, and there will be a project leader assigned to each project. Each project will have a different duration, depending on the agreement with the client. Therefore, you will organize the completed projects and the employees who worked on them through a relational database.
