@@ -40,7 +40,8 @@ After deciding required tables, we can create ER diagram that contain all of tho
 Below we are gonna establish business rule that apply to all of the tables that we've created in the ERD.
 
 1. Table: employee
-Business Rule:
+
+    Business Rule:
     - All fields can't be null
     - Employee type value must be in: Full-time, Contract
     - Salary must be > 0 
@@ -53,20 +54,24 @@ Business Rule:
     - The relationship with the employee table is mandatory, and the data in the department table can be deleted only if there are no related data in the employee table
 
 3. Table: affiliation
-Business Rule:
+
+    Business Rule:
     - All field can't be null
 
 4. Table: client
-Business Rule:
+
+    Business Rule:
     - All field can't be null
     - The relationship with the affiliation table is mandatory, and the data in the client table can be deleted only if there are no related data in the affiliation table
 
 5. Table: project_category
-Business Rule:
+
+    Business Rule:
     - All field can't be null
 
 6. Table: project
-Business Rule:
+
+    Business Rule:
     - All field that contain key(primary, foreign) and project name can't be null
     - The relationship between project_employee, project_category, client, and employee is mandatory. 
     - The data on client can't be deleted because it shows the one who request the project
@@ -74,7 +79,8 @@ Business Rule:
     - The data on employee can be deleted only if there are no related data in the project table
     
 7. Table: project_employee
-Business Rule:
+
+    Business Rule:
     - All field can't be null
     - The relationship between employee and project are mandatory
     - The data on employee can be deleted, and related data on project_employee will be deleted as well
