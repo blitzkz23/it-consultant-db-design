@@ -48,7 +48,8 @@ Below we are gonna establish business rule that apply to all of the tables that 
     - Employee who works on internal project will have their is_available set to False, and can't work on project yet
     
 2. Table: department
-Business Rule:
+
+    Business Rule:
     - All field can't be null
     - Only one employee can be leader on one department
     - The relationship with the employee table is mandatory, and the data in the department table can be deleted only if there are no related data in the employee table
